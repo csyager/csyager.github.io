@@ -1,14 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Your awesome title</title>
-    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+    <title>Connor Yager</title>
+    <description>My personal website, where I keep updates on projects that I'm working on,  notable events in my life, and other such information.  
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 01 Jun 2020 15:33:29 -0400</pubDate>
-    <lastBuildDate>Mon, 01 Jun 2020 15:33:29 -0400</lastBuildDate>
+    <pubDate>Mon, 08 Jun 2020 12:46:08 -0400</pubDate>
+    <lastBuildDate>Mon, 08 Jun 2020 12:46:08 -0400</lastBuildDate>
     <generator>Jekyll v3.8.7</generator>
+    
+      <item>
+        <title>GreekLink</title>
+        <description>&lt;p&gt;&lt;a href=&quot;https://travis-ci.com/csyager/greeklink-core&quot;&gt;&lt;img src=&quot;https://travis-ci.com/csyager/greeklink-core.svg?branch=master&quot; alt=&quot;Build Status&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;GreekLink is a software project a few friends and I have been working on.  At my fraternity chapter, we traditionally spend a lot of time conducting rush voting.  It’s a huge hassle, having to vote on every person that walks through the doors, with each of the four rounds of voting taking usually between 3 and 6 hours.  We used a web application designed by an alumni that wasn’t particularly user-friendly, and was in need of some improved tools to increase productivity.&lt;/p&gt;
+
+&lt;p&gt;To fix these issues, I volunteered to redesign the site, with the primary goal being that we could conduct voting electronically.  In the past, voting was conducted by either a show of hands or the placing of chips in a bag.  These processes both took a matter of minutes to conduct, and my goal was to reduce this operation to a matter of seconds.  To do this, I designed a highly interactive web application using the Django python framework.  The site was deployed using Heroku, and managed everything involved in rush, from the scheduling of events to rushees signing in at the door to track attendance to the voting itself.  When it came time to conduct voting, rushees were pulled from our database of people who had attended the events, and users could place their votes on their phones.&lt;/p&gt;
+
+&lt;p&gt;While there were a few hiccups to work through as we pushed the boundaries of how much load the application could handle from time to time, it eventually got to a point where things were running really smoothly.  So smoothly, in fact, that we decided to expand the site to include features for planning and managing social events throughout the semester.  This got my friends and I thinking, and we reached the conclusion that we could create a one-stop-shop for all of the people-management, planning, and communication that goes into running a Greek organization and sell the product for profit.  Thus, GreekLink was born.&lt;/p&gt;
+
+&lt;p&gt;While it is still a work in progress, many of the systems that were thrown together haphazardly for the initial product that my fraternity used have been deeply refined and polished.  We’ve been looking into elastic hosting options that will allow us to scale out to meet the needs of mulitple Greek organizations, and will hopefully even be able to facilitate communication amongst the community through our application.  This project has been a lot of fun, and I’m excited to see where it will go next.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 04 Jun 2020 01:45:00 -0400</pubDate>
+        <link>http://localhost:4000/project/2020/06/04/greeklink.html</link>
+        <guid isPermaLink="true">http://localhost:4000/project/2020/06/04/greeklink.html</guid>
+        
+        
+        <category>project</category>
+        
+      </item>
+    
+      <item>
+        <title>New Site</title>
+        <description>&lt;p&gt;Due to the technical difficulties involved in maintaining the old version of connoryager.com, I’ve decided to mostly rebuild it and utilize the tools offered by Jekyll and Github to learn something new and make it a little simpler.  While my old blog was a lot of fun, setting things up like user accounts and hosting it all from an old laptop running in my parents’ house, I’ve decided to throw together something a little easier to maintain and more like a professional portfolio.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 01 Jun 2020 15:47:32 -0400</pubDate>
+        <link>http://localhost:4000/blog/2020/06/01/new-site.html</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2020/06/01/new-site.html</guid>
+        
+        
+        <category>blog</category>
+        
+      </item>
     
       <item>
         <title>Welcome to Jekyll!</title>
@@ -28,13 +62,11 @@
 
 </description>
         <pubDate>Mon, 01 Jun 2020 15:17:32 -0400</pubDate>
-        <link>http://localhost:4000/jekyll/update/2020/06/01/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://localhost:4000/jekyll/update/2020/06/01/welcome-to-jekyll.html</guid>
+        <link>http://localhost:4000/blog/2020/06/01/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2020/06/01/welcome-to-jekyll.html</guid>
         
         
-        <category>jekyll</category>
-        
-        <category>update</category>
+        <category>blog</category>
         
       </item>
     

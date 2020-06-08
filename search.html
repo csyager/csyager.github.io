@@ -1,0 +1,69 @@
+---
+layout: page
+title: Search Results
+permalink: /search/
+nav_exclude: true
+---
+
+<div class="home">
+    <div class="row">
+        <div class="col-md-6">
+            <h3>Posts</h3>
+            <ul class="post-list" id="post-list">
+            {% for post in site.categories.blog %}
+            <li id="li-{{ post.title }}">
+                <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+                <h2>
+                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                </h2>
+            </li>
+            {% endfor %}
+            </ul>
+        </div>
+        <div class="col-md-6">
+            <h3>Projects</h3>
+            <ul class="post-list" id="project-list">
+            {% for post in site.categories.project %}
+            <li id="li-{{ post.title }}">
+                <span class="post-meta">{{ post.date | date: "%b, %-d, %Y" }}</span>
+
+                <h2>
+                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                </h2>
+            </li>
+            {% endfor %}
+            </ul>
+        </div>
+    </div>
+    
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+</div>
+
+<script>
+const queryString = window.location.search;
+const urlParams = new URLSearchParams(queryString);
+const query = urlParams.get('query');
+// loops through posts list and hides any without the search criteria in the title
+var ul = document.getElementById('post-list');
+var items = ul.getElementsByTagName('li');
+for (var i=0; i<items.length; ++i){
+    li = items[i];
+    console.log(li.id);
+    if(!li.id.toUpperCase().includes(query.toUpperCase())){
+        li.style.display="none";
+    }
+}
+// does the same thing for the project list
+var ul = document.getElementById('project-list');
+var items = ul.getElementsByTagName('li');
+for (var i=0; i<items.length; ++i){
+    li = items[i];
+    console.log(li.id);
+    if(!li.id.toUpperCase().includes(query.toUpperCase())){
+        li.style.display="none";
+    }
+}
+</script>

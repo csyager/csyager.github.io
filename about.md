@@ -4,12 +4,24 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+(updated Jun. 3, 2020)
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
+My name is Connor Yager, and I run this site!  I am a recent (May 2020) graduate of the University of Virginia's School of Engineering and Applied Sciences, with a Bachelor of Science in Computer Science with a minor in Physics. I attended Norfolk Academy in Norfolk, VA for my sophomore, junior, and senior years, where I graduated with high honors. I spent my freshman year at W.T. Woodson High School in Fairfax, VA.
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+At UVA, I have taken classes in engineering and design, entrepreneurship, physics, chemistry, calculus (differential, integral, and multivariate), differential equations, electricity and magnetism, theory of computation, information theory, digital logic design, data structures, web development, discrete mathematics, software development, algorithms, computer architecture, cyber defense, database structures, operating systems, and more.
+
+My interests in the field of computer science are currently pretty diverse. I enjoy learning about web development, particularly when I am tinkering with a new framework or way of approaching a problem. I have taken on projects in web dev that are aimed at solving problems that I personally encounter in my day-to-day life, and find great satisfaction in developing applications with utility. I also enjoy solving programatic puzzles, and have an interest in working professionally as part of a software-developement team. Generally, I like optimizing user experience and interface, so find front-end work to be very interesting, but also love the feeling of combining a full-stack solution into a fully functional product. Last summer, I worked as a cybersecurity intern, and found the material that I was engaging with to be highly interesting, and could certainly see myself pursuing this career path as well. In 2019, I signed on with CapTech, a tech consulting firm in Richmond, VA to become a Systems Integration Consultant on their team.  This opportunity is on a bit of a hold, due to the COVID-19 crisis, but will hopefully be coming to fruition in the winter of 2020.
+
+
+## Extracurriculars
+Aside from my schoolwork at UVA, I participate in several extra-curricular activities. Firstly, I am an executive member of the Alpha Mu chapter of the Delta Sigma Phi fraternity. Rushing as a first year, I wasn't certain that I wanted to join a fraternity. However, after finding a group of men who I truly admire and respect, I decided to join. Delta Sig has made my college experience truly enjoyable, and I am thankful for everything that they have provided for me. I now serve on the executive council, where I participate in the decision-making that goes into the day-to-day operations of our chapter.
+
+Secondly, I am a member of the Men's Club Lacrosse team. In high school, I was interested in playing lacrosse at the varsity level, but found that in order to play I would have to make sacrifices in the kind of education that I wanted to pursue. Playing club at UVA has been a great compromise, and has given me a way to pursue my passion in a fun and competitive environment, while still studying what I love. I now serve as team treasurer, where I manage our cash-flow from team dues and work with the school to secure funding for our team.
+
+
+## Family
+While not at school I live with my parents, Kim and Craig Yager, and my younger brother Chase. Both of my parents were pilots in the United States Navy, where my dad retired at the rank of Captain and my mom acheived the rank of Lieutenant Commander. Prior to her time in the military, my mom majored in graphic design at Auburn University, and worked as a graphic designer for several years. My dad earned a pre-law bachelor's degree at the University of California at Santa Barbara, and while serving in the military earned an M.B.A. at National University. Following their time in the Navy, my mother worked as a commercial airline pilot for Delta Airlines, and my father worked for a company based in Virginia Beach, VA, called Check-6, which specifically hires former aviators to teach safety management to oil rig workers. Currently, my dad works at the corporate level at 7-Eleven.
+
+My brother is a recent graduate of Norfolk Academy, and is an exemplary student and athlete. While his grades are stellar in all subjects, he is particularly inclined towards the sciences and mathematics. As a lacrosse player, Chase was named to the first team All-State team, was an All-American, and won the Bob Scott Award, which is awarded to only one player from each state who goes above and beyond in service to his team, school and community.
+
+Chase is now a junior at Amherst College, where he is playing lacrosse and is undecided in his field-of-study, but hopes to major in a math or science.

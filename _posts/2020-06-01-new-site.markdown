@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "New Site"
+date:   2020-06-01 15:47:32 -0400
+categories: blog
+---
+Due to the technical difficulties involved in maintaining the old version of connoryager.com, I've decided to mostly rebuild it and utilize the tools offered by Jekyll and Github to learn something new and make it a little simpler.  While my old blog was a lot of fun, setting things up like user accounts and hosting it all from an old laptop running in my parents' house, I've decided to throw together something a little easier to maintain and more like a professional portfolio.
