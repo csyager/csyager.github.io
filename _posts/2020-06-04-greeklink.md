@@ -1,8 +1,13 @@
 ---
-layout: post
+layout: project
 title:  "GreekLink"
 date:   2020-06-04 01:45:00 -0400
 categories: project
+carousel:
+    - image: /assets/images/greeklink/greeklink_screenshot.png
+    - image: /assets/images/greeklink/list_active_screenshot.png
+    - image: /assets/images/greeklink/resources_screenshot.png
+    - image: /assets/images/greeklink/settings_screenshot.png
 ---
 [![Build Status](https://travis-ci.com/csyager/greeklink-core.svg?branch=master)](https://travis-ci.com/csyager/greeklink-core)  
 

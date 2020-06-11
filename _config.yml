@@ -21,3 +21,10 @@ markdown: kramdown
 
 exclude: feed.xml
 exclude: css/main.css
+exclude: assets/css/style.css
+
+defaults:
+  - scope:
+    path: "assets/img"
+  values:
+    image: true
