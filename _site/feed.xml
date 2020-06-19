@@ -6,9 +6,35 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 17 Jun 2020 23:10:47 -0400</pubDate>
-    <lastBuildDate>Wed, 17 Jun 2020 23:10:47 -0400</lastBuildDate>
+    <pubDate>Thu, 18 Jun 2020 23:00:59 -0400</pubDate>
+    <lastBuildDate>Thu, 18 Jun 2020 23:00:59 -0400</lastBuildDate>
     <generator>Jekyll v3.8.7</generator>
+    
+      <item>
+        <title>Graduation</title>
+        <description>&lt;div class=&quot;row&quot;&gt;
+&lt;div class=&quot;col-md-3&quot;&gt;
+&lt;a href=&quot;/assets/images/graduation/grad2.jpg&quot;&gt;&lt;img src=&quot;/assets/images/graduation/grad2.jpg&quot; class=&quot;img-thumbnail&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class=&quot;col-md-9&quot;&gt;
+
+    &lt;p&gt;A little over a month ago I gratuated from the University of Virginia.  Because of the COVID-19 epidemic, this event didn’t go exactly as planned.  While I was still able to be in Charlottesville to celebrate, my family wasn’t able to join me, and the celebrations were slightly less formal.  That being said, it was really great to have an opportunity to reflect on everything that I’ve done and how much I’ve changed over the past four years.  UVA has meant a lot to me, and having that chance to reflect really put into perspective that the next phase of my life was ready to begin.&lt;/p&gt;
+
+    &lt;p&gt;The next phase has been coming slowly though.  The job that I had waiting for me at the end of the summer has been pushed back a bit, possibly as far as this winter.  It’s certainly not how I had hoped my “adult” life would start, but I’ve been trying to make the most of it.  It’s given me a chance to reflect on the mistakes I made in school, as well as the lessons I learned from them.  I don’t mean this in a pessimistic way though.  I’m really grateful for all the opportunities I had to live outside of my comfort zone.  Sometimes I lived too far outside of it, and I stumbled, but even those experiences taught me something, and at the end of the day I’m grateful for them.&lt;/p&gt;
+
+    &lt;p&gt;All of that being said, I think I’m ready for the next big thing.  It’s really easy to fall into nostalgia for what life was like at school, and I will cherish these years fondly.  But I’m ready for a new adventure, and I’m glad that I can move forward with that clarity.  In a way, this break has been very therapeutic, and given me a chance to center myself before embarking on the next journey.  I’m definitely getting antsy though, and really want to get started with adult life.&lt;/p&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Thu, 18 Jun 2020 20:20:00 -0400</pubDate>
+        <link>http://localhost:4000/blog/2020/06/18/graduation.html</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2020/06/18/graduation.html</guid>
+        
+        
+        <category>blog</category>
+        
+      </item>
     
       <item>
         <title>Delta Sig Rush Site</title>
@@ -54,37 +80,15 @@
     
       <item>
         <title>New Site</title>
-        <description>&lt;p&gt;Due to the technical difficulties involved in maintaining the old version of connoryager.com, I’ve decided to mostly rebuild it and utilize the tools offered by Jekyll and Github to learn something new and make it a little simpler.  While my old blog was a lot of fun, setting things up like user accounts and hosting it all from an old laptop running in my parents’ house, I’ve decided to throw together something a little easier to maintain and more like a professional portfolio.&lt;/p&gt;
+        <description>&lt;p&gt;Due to the technical difficulties involved in maintaining the old version of connoryager.com, I’ve decided to mostly rebuild it and utilize the tools offered by Jekyll and Github to learn something new and make it a little simpler.  While my old blog was a lot of fun the maintenance of it was getting a little too much to handle.  The old site was run using an Apache server running on an old laptop in my parents house on a wireless connection to the router, where I had forwarded all HTTP and HTTPS requests to the laptop.  This was a lot of fun to setup, but not so much fun to fix everytime my mom unplugged the laptop to run the vacuum cleaner.&lt;/p&gt;
+
+&lt;p&gt;The old site was a lot of fun though.  Basically every time I learned a new technology or technique, either in classes or that I taught myself, I would try to implement it on the site.  For example, I was pretty excited when I learned a bunch about running a database in my internship after my first year, so I set the site up with a database that would store comments and allow users to sign in.  Then my third year I took an intro to cybersecurity class that had a unit on SQL injections, and I realized that just using simple text input fields without sanitizing inputs was really not a very good idea.  So I fixed that up.  Then I realized I was overpaying massively for the services my hosting company was providing, so I decided to set up my own home server.  This learning by trial and error and using the site as a way to practice what I learned as I learned it was a lot of fun, and has contributed massively to my interest in web development.  But alas, it became a little too complex for its own good, and the maintenance on my end and the usability on the user’s end was becoming too weighed down.&lt;/p&gt;
+
+&lt;p&gt;SO, I am starting from scatch using the cheapest and most efficient technology I could find.  GitHub is a service I’m already familiar with, and just pushing to deploy a static site is a pretty intriguing concept.  It’s gonna take a little time for me to make this one as catchy and colorful as the last one, but hopefully as I go this will become more useful as a portfolio.  If you’re coming from the old connoryager.com, welcome to connoryager.com-2.0!  Thanks for checking in!  Otherwise, thanks for taking the time to visit the site and I hope you find it a pleasant stay.&lt;/p&gt;
 </description>
         <pubDate>Mon, 01 Jun 2020 15:47:32 -0400</pubDate>
         <link>http://localhost:4000/blog/2020/06/01/new-site.html</link>
         <guid isPermaLink="true">http://localhost:4000/blog/2020/06/01/new-site.html</guid>
-        
-        
-        <category>blog</category>
-        
-      </item>
-    
-      <item>
-        <title>Welcome to Jekyll!</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
-
-&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
-
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
-
-</description>
-        <pubDate>Mon, 01 Jun 2020 15:17:32 -0400</pubDate>
-        <link>http://localhost:4000/blog/2020/06/01/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2020/06/01/welcome-to-jekyll.html</guid>
         
         
         <category>blog</category>
