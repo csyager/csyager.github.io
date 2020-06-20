@@ -7,8 +7,8 @@ layout: default
     <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
     <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
   </header>
-  <div class="row">
-    <div class="col-lg-6" style="padding-bottom: 2%">
+  <div class="container">
+    <div class="" style="float: left; margin-bottom: 2%; width: 50%; margin-right: 2%; border-style: solid">
       <div id="carousel" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">  
             {% for slides in page.carousel %}
@@ -17,7 +17,7 @@ layout: default
               {% else %}
               <div class="carousel-item">
               {% endif %}
-                <img class="d-block w-100" src="{{ slides.image}}">
+                <a href="{{ slides.image }}"><img class="d-block w-100" src="{{ slides.image }}"></a>
               </div>
             {% endfor %}
         </div>
@@ -31,7 +31,7 @@ layout: default
         </a>
       </div>
     </div>
-    <div class="col-lg-6">
+    <div class="">
       <div class="post-content" itemprop="articleBody">
         {{ content }}
       </div>

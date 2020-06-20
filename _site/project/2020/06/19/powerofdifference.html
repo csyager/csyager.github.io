@@ -6,9 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Search Results</title>
-  <meta name="description" content="My personal website, where I keep updates on projects that I'm working on,  notable events in my life, and other such information.  
-">
+  <title>Power of Difference Assessment</title>
+  <meta name="description" content="">
 
   <!-- bootstrap -->
   <!-- Latest compiled and minified CSS -->
@@ -24,7 +23,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://localhost:4000/search/">
+  <link rel="canonical" href="http://localhost:4000/project/2020/06/19/powerofdifference.html">
   <link rel="alternate" type="application/rss+xml" title="Connor Yager" href="http://localhost:4000/feed.xml">
 
   <!-- font awesome -->
@@ -95,100 +94,48 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <article class="post">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title">Search Results</h1>
+    <h1 class="post-title" itemprop="name headline">Power of Difference Assessment</h1>
+    <p class="post-meta"><time datetime="2020-06-19T22:30:00-04:00" itemprop="datePublished">Jun 19, 2020</time></p>
   </header>
-
-  <div class="post-content">
-    <div class="home">
-    <div class="row">
-        <div class="col-md-6">
-            <h3>Posts</h3>
-            <ul class="post-list" id="post-list">
+  <div class="container">
+    <div class="" style="float: left; margin-bottom: 2%; width: 50%; margin-right: 2%; border-style: solid">
+      <div id="carousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">  
             
-            <li id="li-Graduation">
-                <span class="post-meta">Jun 18, 2020</span>
-
-                <h2>
-                <a class="post-link" href="/blog/2020/06/18/graduation.html">Graduation</a>
-                </h2>
-            </li>
+              
+              <div class="carousel-item active">
+              
+                <a href="/assets/images/powerofdifference/landing.png"><img class="d-block w-100" src="/assets/images/powerofdifference/landing.png"></a>
+              </div>
             
-            <li id="li-New Site">
-                <span class="post-meta">Jun 1, 2020</span>
-
-                <h2>
-                <a class="post-link" href="/blog/2020/06/01/new-site.html">New Site</a>
-                </h2>
-            </li>
-            
-            </ul>
         </div>
-        <div class="col-md-6">
-            <h3>Projects</h3>
-            <ul class="post-list" id="project-list">
-            
-            <li id="li-Power of Difference Assessment">
-                <span class="post-meta">Jun, 19, 2020</span>
-
-                <h2>
-                <a class="post-link" href="/project/2020/06/19/powerofdifference.html">Power of Difference Assessment</a>
-                </h2>
-            </li>
-            
-            <li id="li-Delta Sig Rush Site">
-                <span class="post-meta">Jun, 4, 2020</span>
-
-                <h2>
-                <a class="post-link" href="/project/2020/06/04/deltasigrush.html">Delta Sig Rush Site</a>
-                </h2>
-            </li>
-            
-            <li id="li-GreekLink">
-                <span class="post-meta">Jun, 4, 2020</span>
-
-                <h2>
-                <a class="post-link" href="/project/2020/06/04/greeklink.html">GreekLink</a>
-                </h2>
-            </li>
-            
-            </ul>
-        </div>
+        <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+          <i class="fa fa-chevron-left" style="font-size:36px; color: black"></i>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+          <i class="fa fa-chevron-right" style="font-size:36px; color: black"></i>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
     </div>
-    
+    <div class="">
+      <div class="post-content" itemprop="articleBody">
+        <p><a href="https://travis-ci.com/uva-cp-1920/The_Sum"><img src="https://travis-ci.com/uva-cp-1920/The_Sum.svg?token=SyrFHx8gYJaW1KCbD5sw&amp;branch=master" alt="Build Status" /></a></p>
 
-  <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p>
+<p>As part of the UVA engineering curriculum, all fourth year students are required to complete a capstone project, meant to be the culmination of what they have learned over their four years.  For computer science students, this meant that we would be creating a project based on the requirements and specifications of a client, who was not necessarily of a technical background.  At the beginning of the year several clients came to our classroom to pitch their projects to us, and we ranked our favorite choices to find a match.</p>
 
-</div>
+<p>My project was with a nonprofit in the Charlottesville area called The Sum.  The Sum’s stated goal is to stand in solidarity with all people, and to take strides towards a more just and equitable world for people of all backgrounds.  One of their offerings towards this end is the Power of Difference Assessment, which is an online assessment that helps identify implicit biases.  By first answering 19 demographics questions and then rating their agreement or disagreement to 70 statements, consultants at The Sum can collect enough data to have a meaningful conversation with the assessment taker about their implicit biases and how they can combat them.</p>
 
-<script>
-const queryString = window.location.search;
-const urlParams = new URLSearchParams(queryString);
-const query = urlParams.get('query');
-// loops through posts list and hides any without the search criteria in the title
-var ul = document.getElementById('post-list');
-var items = ul.getElementsByTagName('li');
-for (var i=0; i<items.length; ++i){
-    li = items[i];
-    console.log(li.id);
-    if(!li.id.toUpperCase().includes(query.toUpperCase())){
-        li.style.display="none";
-    }
-}
-// does the same thing for the project list
-var ul = document.getElementById('project-list');
-var items = ul.getElementsByTagName('li');
-for (var i=0; i<items.length; ++i){
-    li = items[i];
-    console.log(li.id);
-    if(!li.id.toUpperCase().includes(query.toUpperCase())){
-        li.style.display="none";
-    }
-}
-</script>
-  </div>
+<p>Our job was to take the existing system, which was thrown together somewhat haphazardly using some Javascript and HTML, and create a new system that could scale to thousands of users so the assessment could be used for institutional studies.  In its original form, the assessment could only handle one test taker at a time, and relied heavily on the consultants at The Sum to collect the data manually when they were done before they could compile a report on the results.  This obviously wouldn’t work if thousands of people were taking the assessment, so we had to automate everything from starting the test and collecting basic contact information from the user to scheduling consultations when the assessment was over.</p>
+
+<p>This project resonated with me in a lot of ways.  First, being interested in consulting it was fun to be working with a client.  I find that the most enjoyable parts of engineering are not when I have to sit by myself and grind on work quietly, but when I can interact with others and toss ideas around and generally collaborate to make something cool.  Having a non-technical client kind of forced our team to do that.  Secondly, being interested in web development it was fun to take our requirements and really build out an improvement that could scale to a bigger user base.  None of the projects I had worked on in class or for fun had ever had a very big user base, so it always felt kind of amateurish.  Intentionally designing a system that could support so many users felt very professional, and gave me a confidence boost that I could work on large and scalable projects.  Lastly, working with a nonprofit with such a just purpose brought some satisfaction as well.  Having taken the assessment several times, I feel that it really is different from any other “bias test” out there, and I believe that the work being done at The Sum has a lot of value.  Implicit biases are everywhere in our world, and they’re extremely dangerous.  Working on the project felt like working to eliminate them, which was something I really enjoyed.</p>
+
+      </div>
+    </div>
 
 </article>
 
