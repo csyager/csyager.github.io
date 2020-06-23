@@ -6,13 +6,44 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 20 Jun 2020 01:02:57 -0400</pubDate>
-    <lastBuildDate>Sat, 20 Jun 2020 01:02:57 -0400</lastBuildDate>
+    <pubDate>Tue, 23 Jun 2020 19:27:51 -0400</pubDate>
+    <lastBuildDate>Tue, 23 Jun 2020 19:27:51 -0400</lastBuildDate>
     <generator>Jekyll v3.8.7</generator>
+    
+      <item>
+        <title>The Shifting Boundary Between Open-Source and Proprietary Software and its Role in the Future of AI</title>
+        <description>&lt;p&gt;&lt;a href=&quot;https://doi.org/10.18130/v3-fabt-as11&quot;&gt;Click here to view my thesis&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The genesis of the open-source software development methodology in the 1990s effectively divided the professional software development world into two distinct groups: those individuals and corporations who support free and open-source software and those who support the traditional proprietary model. Today, these lines have become blurred, as proprietary corporations pledge support for the open-source community while open-source developers demand the acceptance of stricter licensing options. With the advent of human-level artificial intelligence on the horizon, this shifting spectrum of code ownership and profitability has great ethical implications, as the most equitable ownership of a technology primed to change the lives of all people comes into question. In the development of human-level artificial intelligence, the most destructive potential bug in its design is bias. In the same way that human bias is largely dependent on background, AI bias is based on faulty data. This data is the result of human-created algorithms that fail to accurately account for perspectives outside of those of its creator. The open-source vs. proprietary debate extends into this field, with the open-source community championing collective code-ownership, while proprietary supporters promise more rigorous safety testing and quality assurance. While it is difficult to make predictions about future technologies, evaluating the evolving relationship between open-source and proprietary technologies with respect to bias is an essential step in safety-engineering artificial intelligence.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;In addition to the capstone project, fourth year engineers at UVA are required to complete a senior thesis through the Science, Technology and Society department.  This project is also a year-long endeavor, and requires the student to research a technology or system and analyze the interaction between its technicalogical aspects and the social forces that shaped it.  My thesis was titled “The Shifting Boundary Between Open-Source and Proprietary Software and its Role in the Future of AI,” and analyzed the social forces shaping AI today, and how that might shape the development of human-level artificial intelligence in the future.&lt;/p&gt;
+
+&lt;p&gt;The project is meant to relate to the technical capstone project.  The Power of Difference Assessment, which I talk about in another post, is an implicit bias assessment.  The angle of future AI research that I wanted to focus on was bias in artificial intelligence, and how that might affect systems of human-level intelligence.  While much of the paper is focused on the social evolutions that shape open-source and proprietary development methods, I use this analysis to discuss the pros and cons of the two methods and the way they have intersected when it comes to developing human-level artificial intelligence in the future.&lt;/p&gt;
+
+&lt;p&gt;I believe that human-level artificial intelligence is a technology that is evolving at a pace that will make it a reality in the near-future, and will have far-reaching applications for all humans.  However, existing versions of AI have proven in many arenas to be poorly thought-out, leading to misrepresentation of people that weren’t considered by the creators or injustice perpetuate by faulty data.  In the essay, I use the example of predictive policing, which is the practice of using AI to analyze crime data to better inform police officers about where and when they should patrol.  In theory, this should prevent crimes.  However, the data used to train these decision making algorithms was based on past arrests, which have historically been heavily biased towards minority neighborhoods.  This is a human bias that became machine bias because of the way that the software was designed.  Human-level AI will in all likelihood make decisions much more far-reaching and impactful, and it is my belief that progressing at the rate that we are today without stopping to make absolutely sure we have considered all people and the implications against them, we may accidentally create something that will devastate humanity rather than assist it.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 21 Jun 2020 06:00:00 -0400</pubDate>
+        <link>http://localhost:4000/project/2020/06/21/ststhesis.html</link>
+        <guid isPermaLink="true">http://localhost:4000/project/2020/06/21/ststhesis.html</guid>
+        
+        
+        <category>project</category>
+        
+      </item>
     
       <item>
         <title>Power of Difference Assessment</title>
         <description>&lt;p&gt;&lt;a href=&quot;https://travis-ci.com/uva-cp-1920/The_Sum&quot;&gt;&lt;img src=&quot;https://travis-ci.com/uva-cp-1920/The_Sum.svg?token=SyrFHx8gYJaW1KCbD5sw&amp;amp;branch=master&quot; alt=&quot;Build Status&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The Sum is a Charlottesville-based non-profit, with the stated goal of helping people learn about their implicit biases and understand how to better communicate with people of other backgrounds. Their Power of Difference Assessment, or PDA, is a tool used to identify these implicit biases and collect data that professionals at The Sum can use to consult the assessment taker. Under the initial PDA system, a lack of automation prevented scaling to a larger user base, restricting the growth of the organization and its ability to collect data. Our team was tasked with enhancing the system with features that would allow it to serve as a tool in institutional studies, with the ability to support thousands of assessment-takers and collect meaningful data for use in research.&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;p&gt;As part of the UVA engineering curriculum, all fourth year students are required to complete a capstone project, meant to be the culmination of what they have learned over their four years.  For computer science students, this meant that we would be creating a project based on the requirements and specifications of a client, who was not necessarily of a technical background.  At the beginning of the year several clients came to our classroom to pitch their projects to us, and we ranked our favorite choices to find a match.&lt;/p&gt;
 

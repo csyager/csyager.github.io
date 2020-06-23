@@ -9,6 +9,10 @@ carousel:
 
 [![Build Status](https://travis-ci.com/uva-cp-1920/The_Sum.svg?token=SyrFHx8gYJaW1KCbD5sw&branch=master)](https://travis-ci.com/uva-cp-1920/The_Sum)
 
+**Abstract**
+
+>The Sum is a Charlottesville-based non-profit, with the stated goal of helping people learn about their implicit biases and understand how to better communicate with people of other backgrounds. Their Power of Difference Assessment, or PDA, is a tool used to identify these implicit biases and collect data that professionals at The Sum can use to consult the assessment taker. Under the initial PDA system, a lack of automation prevented scaling to a larger user base, restricting the growth of the organization and its ability to collect data. Our team was tasked with enhancing the system with features that would allow it to serve as a tool in institutional studies, with the ability to support thousands of assessment-takers and collect meaningful data for use in research.
+
 As part of the UVA engineering curriculum, all fourth year students are required to complete a capstone project, meant to be the culmination of what they have learned over their four years.  For computer science students, this meant that we would be creating a project based on the requirements and specifications of a client, who was not necessarily of a technical background.  At the beginning of the year several clients came to our classroom to pitch their projects to us, and we ranked our favorite choices to find a match.
 
 My project was with a nonprofit in the Charlottesville area called The Sum.  The Sum's stated goal is to stand in solidarity with all people, and to take strides towards a more just and equitable world for people of all backgrounds.  One of their offerings towards this end is the Power of Difference Assessment, which is an online assessment that helps identify implicit biases.  By first answering 19 demographics questions and then rating their agreement or disagreement to 70 statements, consultants at The Sum can collect enough data to have a meaningful conversation with the assessment taker about their implicit biases and how they can combat them.  
