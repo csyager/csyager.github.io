@@ -7,8 +7,6 @@ carousel:
     - image: /assets/images/powerofdifference/landing.png
 ---
 
-[![Build Status](https://travis-ci.com/uva-cp-1920/The_Sum.svg?token=SyrFHx8gYJaW1KCbD5sw&branch=master)](https://travis-ci.com/uva-cp-1920/The_Sum)
-
 **Abstract**
 
 >The Sum is a Charlottesville-based non-profit, with the stated goal of helping people learn about their implicit biases and understand how to better communicate with people of other backgrounds. Their Power of Difference Assessment, or PDA, is a tool used to identify these implicit biases and collect data that professionals at The Sum can use to consult the assessment taker. Under the initial PDA system, a lack of automation prevented scaling to a larger user base, restricting the growth of the organization and its ability to collect data. Our team was tasked with enhancing the system with features that would allow it to serve as a tool in institutional studies, with the ability to support thousands of assessment-takers and collect meaningful data for use in research.

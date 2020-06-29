@@ -9,7 +9,6 @@ carousel:
     - image: /assets/images/greeklink/resources_screenshot.png
     - image: /assets/images/greeklink/settings_screenshot.png
 ---
-[![Build Status](https://travis-ci.com/csyager/greeklink-core.svg?branch=master)](https://travis-ci.com/csyager/greeklink-core)  
 
 GreekLink is a software project a few friends and I have been working on.  At my fraternity chapter, we traditionally spend a lot of time conducting rush voting.  It's a huge hassle, having to vote on every person that walks through the doors, with each of the four rounds of voting taking usually between 3 and 6 hours.  We used a web application designed by an alumni that wasn't particularly user-friendly, and was in need of some improved tools to increase productivity.
 
