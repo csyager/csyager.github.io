@@ -6,9 +6,51 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 23 Jun 2020 19:27:51 -0400</pubDate>
-    <lastBuildDate>Tue, 23 Jun 2020 19:27:51 -0400</lastBuildDate>
+    <pubDate>Sun, 12 Jul 2020 23:59:26 -0400</pubDate>
+    <lastBuildDate>Sun, 12 Jul 2020 23:59:26 -0400</lastBuildDate>
     <generator>Jekyll v3.8.7</generator>
+    
+      <item>
+        <title>How Server Maintenance Taught Me a Lesson About Cybersecurity</title>
+        <description>&lt;p&gt;As a little project about a year and a half ago, I decided to learn a little about networking and turn an old laptop into a server I could run from home.  As I’ve stated in other posts, that used to be where I hosted an older version of this site, as well as servers for games I could play with my friends and other fun stuff like that.  When I decided to build a web app for my fraternity to use during rush, I wanted to use that server to host that site.  Of course this wasn’t really the optimal solution, and eventually connections to the server mysteriously started to be rejected.  On a time crunch for the fraternity site, I decided to abandon it for the time being and look for alternative hosting options.&lt;/p&gt;
+
+&lt;p&gt;This weekend I decided to reopen the case and get to the bottom of why it stopped working.  It turned out to be a pretty silly oversight on my part.  Since the router that was forwarding requests to my server was the same Verizon router that my family uses in the house, it isn’t configured with a static IP address, and Verizon changed the address on me, hence why none of my requests were going through.  Pretty dumb mistake that wasted several hours of my time, but while investigating the issue I stumbled upon something that made me a little more concerned.  While taking a look at my ssh logs to figure out why my connections weren’t going through, I noticed that about every 10 seconds some new username was getting rejected.  The usernames were common, like “sysadmin,” or “john,” or “root,” and all would of course be rejected because I don’t have any user accounts using those names.  Even if they did get through the first username check, they would have to know my password to get in.  Regardless, this got me thinking though about the consequences of someone getting access to my computer.  In all honesty there’s not a lot that could be taken from me personally, but it could be used to monitor our internet access, run programs that I don’t want using my computer, or worse, spread malware to other computers.  All not great.&lt;/p&gt;
+
+&lt;p&gt;Last summer while working as a cybersecurity intern, I was pretty bored one day and wanted to check out just how important some of the priciples I was learning were.  So I downloaded a popular open source password cracker called John the Ripper.  The premise behind the program was pretty simple, you supply it with a long word list of common passwords and phrases, and it tries to programmatically crack the password.  Pretty simple, and in my eyes benign.  My password was not listed among the common phrases, so I thought I would be pretty safe.  Just as an experiment, I ran it against my root password.  Between probably 30 seconds and a minute later, the program read my password back to me.&lt;/p&gt;
+
+&lt;p&gt;I was blown away.  My password certainly wasn’t as great as it should be, but its not terrible.  Still, this was a free program I downloaded and ran on my lunch break.  Anybody could have done this.  Honestly, it scared me pretty straight.  The good news is the botnets that are trying to get into my server at home aren’t doing anything this complicated, because it honestly isn’t worth the computing power.  It makes more sense to cast a wide net and find the one person using root/password as their login credentials than it does to focus on any one target.  But the lesson is the same, hiding access to my computer behind a flimsy username and password combination isn’t going to cut it.&lt;/p&gt;
+
+&lt;p&gt;To fix this problem, I took a couple of steps that I should have done from the get go.  First, in my ssh configuration, I turned off password access and required an RSA key instead.  Then I used ssh keygen to set myself up with a private key to ensure that even if someone got the username/password combo right, they still wouldn’t get anywhere without a verified private key.  Still though, this did nothing to take care of the enormous amounts of login attempts the server was seeing every day.  To combat this issue, I installed Fail2ban, a popular blacklisting tool that catches IP addresses trying too many times to get in.  Within about 10 minutes of starting the Fail2ban program I’ve caught 45 IP addresses, from locations including South Korea, China, and even within the US.  While these places likely don’t reflect the origin of the attackers, there is a clear diversity in the attacks.&lt;/p&gt;
+
+&lt;p&gt;Moral of the story, you can’t be too careful.  Even if you’ve never had problems before or feel confident in your password, a simple username/password check probably isn’t going to cut it for anything open to the internet.  And check your access logs every once in a while!&lt;/p&gt;
+</description>
+        <pubDate>Sun, 12 Jul 2020 19:50:00 -0400</pubDate>
+        <link>http://localhost:4000/blog/2020/07/12/server-maintanance.html</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2020/07/12/server-maintanance.html</guid>
+        
+        
+        <category>blog</category>
+        
+      </item>
+    
+      <item>
+        <title>AWS Developer Associate Course</title>
+        <description>&lt;p&gt;&lt;a href=&quot;https://www.udemy.com/course/aws-certified-developer-associate-dva-c01/&quot;&gt;Link to the Udemy Course I’m using to prepare&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Because I have this big chunk of time between the end of school and when I’m hoping to be starting my job, I decided that I should spend some of that time preparing for future work and making myself a better developer.  Through my internships I’ve noticed a growing trend:  the cloud is everything.  In fact, through my personal work I’ve come face to face with that trend too.  Take the website I was running for my fraternity.  It became pretty clear after a few outages that running the site from a webserver on an old laptop in my house wasn’t a very good idea.  I just wasn’t able to develop, deploy new features, and worry about the server at the same time. (not to mention the server was at my parent’s house, so unless I could fix problems by ssh’ing into it from school I was basically relaying instructions to my mom.  Not great.)  At the time I took a lot of pride in being able to run the project at such a low cost, so it was a big hit to my ego to cough up $7 a month for a Heroku subscription.  In hindsight, not a big price to pay for the ease of deployment and guarantee of availability that heroku provided.&lt;/p&gt;
+
+&lt;p&gt;Today, I’m looking to scale that project out to offer the same services to many more organizations.  It was clear to me when I started this that I would need to be able to leverage the cloud to support my project, and that the more control I had over how that was done, the better our service would be and the more affordable we could make it.  Having worked around AWS before, I decided that that was the technology we were going to use, and began learning the basics of their elastic beanstalk offering.  It didn’t take long before I was thoroughly overwhelmed by the number of services AWS provides, as well as the depth and complexity of each.  Between past experiences of the viability and future of the cloud, as well as my present needs, I realized that the cloud was something that I would need to be familiar with, and would benefit greatly from knowing as much as possible about.&lt;/p&gt;
+
+&lt;p&gt;This is what inspired me to start the Udemy course linked above.  I try to knock out one section a day, and hopefully by the time I’m done with it I’ll have enough knowledge to pass the AWS Developer Associciate exam and earn my certification.  I believe that this will help to make me a more well-rounded developer, as well as make me a more attractive candidate for positions that require the use or understanding of the cloud.  Thus far, I’m surprised at how much I’ve learned, and how much more familiar the AWS console is feeling.  I’m looking forward to being a certified cloud expert, and am really enjoying this path of growth that I’ve started on!&lt;/p&gt;
+</description>
+        <pubDate>Fri, 26 Jun 2020 18:15:00 -0400</pubDate>
+        <link>http://localhost:4000/blog/2020/06/26/aws-cert.html</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2020/06/26/aws-cert.html</guid>
+        
+        
+        <category>blog</category>
+        
+      </item>
     
       <item>
         <title>The Shifting Boundary Between Open-Source and Proprietary Software and its Role in the Future of AI</title>
@@ -37,9 +79,7 @@
     
       <item>
         <title>Power of Difference Assessment</title>
-        <description>&lt;p&gt;&lt;a href=&quot;https://travis-ci.com/uva-cp-1920/The_Sum&quot;&gt;&lt;img src=&quot;https://travis-ci.com/uva-cp-1920/The_Sum.svg?token=SyrFHx8gYJaW1KCbD5sw&amp;amp;branch=master&quot; alt=&quot;Build Status&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;&lt;/p&gt;
+        <description>&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;The Sum is a Charlottesville-based non-profit, with the stated goal of helping people learn about their implicit biases and understand how to better communicate with people of other backgrounds. Their Power of Difference Assessment, or PDA, is a tool used to identify these implicit biases and collect data that professionals at The Sum can use to consult the assessment taker. Under the initial PDA system, a lack of automation prevented scaling to a larger user base, restricting the growth of the organization and its ability to collect data. Our team was tasked with enhancing the system with features that would allow it to serve as a tool in institutional studies, with the ability to support thousands of assessment-takers and collect meaningful data for use in research.&lt;/p&gt;
@@ -90,9 +130,7 @@
     
       <item>
         <title>Delta Sig Rush Site</title>
-        <description>&lt;p&gt;&lt;a href=&quot;https://github.com/csyager/deltasigrush&quot;&gt;Click here to view the source code on GitHub&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Going into my fourth year, one of the biggest yearly difficulties I faced was rush voting.  This is a process that can take legitimately up to 6 hours in each of the four rounds of voting, most of which occur on weeknights where the brothers have class the next day.  Rush is an essential process for a fraternity, as our existence and financial security rest solely on our ability to recruit new members.  While we had a system in place to track people coming through the door, it was clear to me that our system could be improved.&lt;/p&gt;
+        <description>&lt;p&gt;Going into my fourth year, one of the biggest yearly difficulties I faced was rush voting.  This is a process that can take legitimately up to 6 hours in each of the four rounds of voting, most of which occur on weeknights where the brothers have class the next day.  Rush is an essential process for a fraternity, as our existence and financial security rest solely on our ability to recruit new members.  While we had a system in place to track people coming through the door, it was clear to me that our system could be improved.&lt;/p&gt;
 
 &lt;p&gt;Notably, there was no electronic system in place for voting.  This was by and large the biggest time sink in the entire process.  Voting is usually conducted by raise of hand or by placing votes in a bag.  This process was not efficient, and was one that I felt I could help optimize.  Challenges involved were making sure that every brother was able to access the site, that their votes and interactions with the rushees would be counted distinctly and attributed to their user accounts, and combining various technologies to make sure that we were tracking essential information on each of the rushees, including a picture of themselves that they take at the door and their contact information.  To do this, I used the Django framework, because I was familiar with it through my coursework, and because it handles a lot of the user account stuff natively.  This meant that I would be able to get a lot done without spending too much time on the little things.&lt;/p&gt;
 
@@ -111,9 +149,7 @@
     
       <item>
         <title>GreekLink</title>
-        <description>&lt;p&gt;&lt;a href=&quot;https://travis-ci.com/csyager/greeklink-core&quot;&gt;&lt;img src=&quot;https://travis-ci.com/csyager/greeklink-core.svg?branch=master&quot; alt=&quot;Build Status&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;GreekLink is a software project a few friends and I have been working on.  At my fraternity chapter, we traditionally spend a lot of time conducting rush voting.  It’s a huge hassle, having to vote on every person that walks through the doors, with each of the four rounds of voting taking usually between 3 and 6 hours.  We used a web application designed by an alumni that wasn’t particularly user-friendly, and was in need of some improved tools to increase productivity.&lt;/p&gt;
+        <description>&lt;p&gt;GreekLink is a software project a few friends and I have been working on.  At my fraternity chapter, we traditionally spend a lot of time conducting rush voting.  It’s a huge hassle, having to vote on every person that walks through the doors, with each of the four rounds of voting taking usually between 3 and 6 hours.  We used a web application designed by an alumni that wasn’t particularly user-friendly, and was in need of some improved tools to increase productivity.&lt;/p&gt;
 
 &lt;p&gt;To fix these issues, I volunteered to redesign the site, with the primary goal being that we could conduct voting electronically.  In the past, voting was conducted by either a show of hands or the placing of chips in a bag.  These processes both took a matter of minutes to conduct, and my goal was to reduce this operation to a matter of seconds.  To do this, I designed a highly interactive web application using the Django python framework.  The site was deployed using Heroku, and managed everything involved in rush, from the scheduling of events to rushees signing in at the door to track attendance to the voting itself.  When it came time to conduct voting, rushees were pulled from our database of people who had attended the events, and users could place their votes on their phones.&lt;/p&gt;
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "How Server Maintenance Taught Me a Lesson About Cybersecurity""
+title:  "How Server Maintenance Taught Me a Lesson About Cybersecurity"
 date:   2020-07-12 19:50:00 -0400
 categories: blog
 ---
