@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Graduation"
-date:   2020-06-18 20:20:00 -0400
+title:  "How Server Maintenance Taught Me a Lesson About Cybersecurity""
+date:   2020-07-12 19:50:00 -0400
 categories: blog
 ---
 
