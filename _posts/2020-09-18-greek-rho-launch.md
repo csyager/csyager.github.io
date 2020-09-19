@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "GreekRho Beta Launch"
-date:   2020-09-18 18:00:00 -0400
+date:   2020-09-19 14:00:00 -0400
 categories: blog
 ---
 
