@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: post
 title:  "The Shifting Boundary Between Open-Source and Proprietary Software and its Role in the Future of AI"
 date:   2020-06-21 06:00:00 -0400
 categories: project

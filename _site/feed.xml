@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 12 Jul 2020 23:59:26 -0400</pubDate>
-    <lastBuildDate>Sun, 12 Jul 2020 23:59:26 -0400</lastBuildDate>
+    <pubDate>Sat, 19 Sep 2020 13:20:58 -0400</pubDate>
+    <lastBuildDate>Sat, 19 Sep 2020 13:20:58 -0400</lastBuildDate>
     <generator>Jekyll v3.8.7</generator>
     
       <item>
@@ -79,7 +79,10 @@
     
       <item>
         <title>Power of Difference Assessment</title>
-        <description>&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;&lt;/p&gt;
+        <description>&lt;div class=&quot;&quot; style=&quot;float: left; margin-bottom: 2%; width: 50%; margin-right: 2%; border-style: solid&quot;&gt;
+    &lt;a href=&quot;/assets/images/powerofdifference/landing.png&quot;&gt;&lt;img class=&quot;d-block w-100&quot; src=&quot;/assets/images/powerofdifference/landing.png&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;The Sum is a Charlottesville-based non-profit, with the stated goal of helping people learn about their implicit biases and understand how to better communicate with people of other backgrounds. Their Power of Difference Assessment, or PDA, is a tool used to identify these implicit biases and collect data that professionals at The Sum can use to consult the assessment taker. Under the initial PDA system, a lack of automation prevented scaling to a larger user base, restricting the growth of the organization and its ability to collect data. Our team was tasked with enhancing the system with features that would allow it to serve as a tool in institutional studies, with the ability to support thousands of assessment-takers and collect meaningful data for use in research.&lt;/p&gt;
@@ -130,7 +133,40 @@
     
       <item>
         <title>Delta Sig Rush Site</title>
-        <description>&lt;p&gt;Going into my fourth year, one of the biggest yearly difficulties I faced was rush voting.  This is a process that can take legitimately up to 6 hours in each of the four rounds of voting, most of which occur on weeknights where the brothers have class the next day.  Rush is an essential process for a fraternity, as our existence and financial security rest solely on our ability to recruit new members.  While we had a system in place to track people coming through the door, it was clear to me that our system could be improved.&lt;/p&gt;
+        <description>&lt;div class=&quot;&quot; style=&quot;float: left; margin-bottom: 2%; width: 50%; margin-right: 2%; border-style: solid&quot;&gt;
+    &lt;div id=&quot;carousel&quot; class=&quot;carousel slide&quot; data-ride=&quot;carousel&quot;&gt;
+        &lt;div class=&quot;carousel-inner&quot;&gt;       
+            &lt;div class=&quot;carousel-item active&quot;&gt;
+                &lt;a href=&quot;/assets/images/deltasigrush/index.png&quot;&gt;&lt;img class=&quot;d-block w-100&quot; src=&quot;/assets/images/deltasigrush/index.png&quot; /&gt;&lt;/a&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;carousel-item&quot;&gt;
+                &lt;a href=&quot;/assets/images/deltasigrush/rushee_signin.png&quot;&gt;&lt;img class=&quot;d-block w-100&quot; src=&quot;/assets/images/deltasigrush/rushee_signin.png&quot; /&gt;&lt;/a&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;carousel-item&quot;&gt;
+                &lt;a href=&quot;/assets/images/deltasigrush/current_rushees.png&quot;&gt;&lt;img class=&quot;d-block w-100&quot; src=&quot;/assets/images/deltasigrush/current_rushees.png&quot; /&gt;&lt;/a&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;carousel-item&quot;&gt;
+                &lt;a href=&quot;/assets/images/deltasigrush/rushee.png&quot;&gt;&lt;img class=&quot;d-block w-100&quot; src=&quot;/assets/images/deltasigrush/rushee.png&quot; /&gt;&lt;/a&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;carousel-item&quot;&gt;
+                &lt;a href=&quot;/assets/images/deltasigrush/voting.png&quot;&gt;&lt;img class=&quot;d-block w-100&quot; src=&quot;/assets/images/deltasigrush/voting.png&quot; /&gt;&lt;/a&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;carousel-item&quot;&gt;
+                &lt;a href=&quot;/assets/images/deltasigrush/results.png&quot;&gt;&lt;img class=&quot;d-block w-100&quot; src=&quot;/assets/images/deltasigrush/results.png&quot; /&gt;&lt;/a&gt;
+            &lt;/div&gt;         
+        &lt;/div&gt;
+        &lt;a class=&quot;carousel-control-prev&quot; href=&quot;#carousel&quot; role=&quot;button&quot; data-slide=&quot;prev&quot;&gt;
+          &lt;i class=&quot;fa fa-chevron-left&quot; style=&quot;font-size:36px; color: black&quot;&gt;&lt;/i&gt;
+          &lt;span class=&quot;sr-only&quot;&gt;Previous&lt;/span&gt;
+        &lt;/a&gt;
+        &lt;a class=&quot;carousel-control-next&quot; href=&quot;#carousel&quot; role=&quot;button&quot; data-slide=&quot;next&quot;&gt;
+          &lt;i class=&quot;fa fa-chevron-right&quot; style=&quot;font-size:36px; color: black&quot;&gt;&lt;/i&gt;
+          &lt;span class=&quot;sr-only&quot;&gt;Next&lt;/span&gt;
+        &lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Going into my fourth year, one of the biggest yearly difficulties I faced was rush voting.  This is a process that can take legitimately up to 6 hours in each of the four rounds of voting, most of which occur on weeknights where the brothers have class the next day.  Rush is an essential process for a fraternity, as our existence and financial security rest solely on our ability to recruit new members.  While we had a system in place to track people coming through the door, it was clear to me that our system could be improved.&lt;/p&gt;
 
 &lt;p&gt;Notably, there was no electronic system in place for voting.  This was by and large the biggest time sink in the entire process.  Voting is usually conducted by raise of hand or by placing votes in a bag.  This process was not efficient, and was one that I felt I could help optimize.  Challenges involved were making sure that every brother was able to access the site, that their votes and interactions with the rushees would be counted distinctly and attributed to their user accounts, and combining various technologies to make sure that we were tracking essential information on each of the rushees, including a picture of themselves that they take at the door and their contact information.  To do this, I used the Django framework, because I was familiar with it through my coursework, and because it handles a lot of the user account stuff natively.  This meant that I would be able to get a lot done without spending too much time on the little things.&lt;/p&gt;
 
@@ -149,7 +185,34 @@
     
       <item>
         <title>GreekLink</title>
-        <description>&lt;p&gt;GreekLink is a software project a few friends and I have been working on.  At my fraternity chapter, we traditionally spend a lot of time conducting rush voting.  It’s a huge hassle, having to vote on every person that walks through the doors, with each of the four rounds of voting taking usually between 3 and 6 hours.  We used a web application designed by an alumni that wasn’t particularly user-friendly, and was in need of some improved tools to increase productivity.&lt;/p&gt;
+        <description>&lt;div class=&quot;&quot; style=&quot;float: left; margin-bottom: 2%; width: 50%; margin-right: 2%; border-style: solid&quot;&gt;
+    &lt;div id=&quot;carousel&quot; class=&quot;carousel slide&quot; data-ride=&quot;carousel&quot;&gt;
+        &lt;div class=&quot;carousel-inner&quot;&gt;       
+            &lt;div class=&quot;carousel-item active&quot;&gt;
+                &lt;a href=&quot;/assets/images/greeklink/greeklink_screenshot.png&quot;&gt;&lt;img class=&quot;d-block w-100&quot; src=&quot;/assets/images/greeklink/greeklink_screenshot.png&quot; /&gt;&lt;/a&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;carousel-item&quot;&gt;
+                &lt;a href=&quot;/assets/images/greeklink/list_active_screenshot.png&quot;&gt;&lt;img class=&quot;d-block w-100&quot; src=&quot;/assets/images/greeklink/list_active_screenshot.png&quot; /&gt;&lt;/a&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;carousel-item&quot;&gt;
+                &lt;a href=&quot;/assets/images/greeklink/resources_screenshot.png&quot;&gt;&lt;img class=&quot;d-block w-100&quot; src=&quot;/assets/images/greeklink/resources_screenshot.png&quot; /&gt;&lt;/a&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;carousel-item&quot;&gt;
+                &lt;a href=&quot;/assets/images/greeklink/settings_screenshot.png&quot;&gt;&lt;img class=&quot;d-block w-100&quot; src=&quot;/assets/images/greeklink/settings_screenshot.png&quot; /&gt;&lt;/a&gt;
+            &lt;/div&gt;         
+        &lt;/div&gt;
+        &lt;a class=&quot;carousel-control-prev&quot; href=&quot;#carousel&quot; role=&quot;button&quot; data-slide=&quot;prev&quot;&gt;
+          &lt;i class=&quot;fa fa-chevron-left&quot; style=&quot;font-size:36px; color: black&quot;&gt;&lt;/i&gt;
+          &lt;span class=&quot;sr-only&quot;&gt;Previous&lt;/span&gt;
+        &lt;/a&gt;
+        &lt;a class=&quot;carousel-control-next&quot; href=&quot;#carousel&quot; role=&quot;button&quot; data-slide=&quot;next&quot;&gt;
+          &lt;i class=&quot;fa fa-chevron-right&quot; style=&quot;font-size:36px; color: black&quot;&gt;&lt;/i&gt;
+          &lt;span class=&quot;sr-only&quot;&gt;Next&lt;/span&gt;
+        &lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;GreekLink is a software project a few friends and I have been working on.  At my fraternity chapter, we traditionally spend a lot of time conducting rush voting.  It’s a huge hassle, having to vote on every person that walks through the doors, with each of the four rounds of voting taking usually between 3 and 6 hours.  We used a web application designed by an alumni that wasn’t particularly user-friendly, and was in need of some improved tools to increase productivity.&lt;/p&gt;
 
 &lt;p&gt;To fix these issues, I volunteered to redesign the site, with the primary goal being that we could conduct voting electronically.  In the past, voting was conducted by either a show of hands or the placing of chips in a bag.  These processes both took a matter of minutes to conduct, and my goal was to reduce this operation to a matter of seconds.  To do this, I designed a highly interactive web application using the Django python framework.  The site was deployed using Heroku, and managed everything involved in rush, from the scheduling of events to rushees signing in at the door to track attendance to the voting itself.  When it came time to conduct voting, rushees were pulled from our database of people who had attended the events, and users could place their votes on their phones.&lt;/p&gt;
 
