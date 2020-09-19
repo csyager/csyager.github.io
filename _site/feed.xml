@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 19 Sep 2020 18:17:54 -0400</pubDate>
-    <lastBuildDate>Sat, 19 Sep 2020 18:17:54 -0400</lastBuildDate>
+    <pubDate>Sat, 19 Sep 2020 18:21:33 -0400</pubDate>
+    <lastBuildDate>Sat, 19 Sep 2020 18:21:33 -0400</lastBuildDate>
     <generator>Jekyll v3.8.7</generator>
     
       <item>
@@ -106,7 +106,9 @@
     
       <item>
         <title>Power of Difference Assessment</title>
-        <description>&lt;div class=&quot;&quot; style=&quot;float: left; margin-bottom: 2%; width: 50%; margin-right: 2%; border-style: solid&quot;&gt;
+        <description>&lt;p&gt;This project is on Github!  Click &lt;a href=&quot;https://github.com/uva-cp-1920/The_Sum&quot;&gt;here&lt;/a&gt; to view!&lt;/p&gt;
+
+&lt;div class=&quot;&quot; style=&quot;float: left; margin-bottom: 2%; width: 50%; margin-right: 2%; border-style: solid&quot;&gt;
     &lt;a href=&quot;/assets/images/powerofdifference/landing.png&quot;&gt;&lt;img class=&quot;d-block w-100&quot; src=&quot;/assets/images/powerofdifference/landing.png&quot; /&gt;&lt;/a&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;&lt;/p&gt;

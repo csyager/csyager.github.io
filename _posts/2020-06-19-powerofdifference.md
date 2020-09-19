@@ -5,6 +5,8 @@ date:   2020-06-19 22:30:00 -0400
 categories: project
 ---
 
+This project is on Github!  Click <a href="https://github.com/uva-cp-1920/The_Sum">here</a> to view!
+
 <div class="" style="float: left; margin-bottom: 2%; width: 50%; margin-right: 2%; border-style: solid">
     <a href="/assets/images/powerofdifference/landing.png"><img class="d-block w-100" src="/assets/images/powerofdifference/landing.png"></a>
 </div>
