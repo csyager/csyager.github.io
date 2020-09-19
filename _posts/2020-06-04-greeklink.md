@@ -1,14 +1,36 @@
 ---
-layout: project
+layout: post
 title:  "GreekLink"
 date:   2020-06-04 01:45:00 -0400
 categories: project
-carousel:
-    - image: /assets/images/greeklink/greeklink_screenshot.png
-    - image: /assets/images/greeklink/list_active_screenshot.png
-    - image: /assets/images/greeklink/resources_screenshot.png
-    - image: /assets/images/greeklink/settings_screenshot.png
 ---
+
+<div class="" style="float: left; margin-bottom: 2%; width: 50%; margin-right: 2%; border-style: solid">
+    <div id="carousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">       
+            <div class="carousel-item active">
+                <a href="/assets/images/greeklink/greeklink_screenshot.png"><img class="d-block w-100" src="/assets/images/greeklink/greeklink_screenshot.png"></a>
+            </div>
+            <div class="carousel-item">
+                <a href="/assets/images/greeklink/list_active_screenshot.png"><img class="d-block w-100" src="/assets/images/greeklink/list_active_screenshot.png"></a>
+            </div>
+            <div class="carousel-item">
+                <a href="/assets/images/greeklink/resources_screenshot.png"><img class="d-block w-100" src="/assets/images/greeklink/resources_screenshot.png"></a>
+            </div>
+            <div class="carousel-item">
+                <a href="/assets/images/greeklink/settings_screenshot.png"><img class="d-block w-100" src="/assets/images/greeklink/settings_screenshot.png"></a>
+            </div>         
+        </div>
+        <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+          <i class="fa fa-chevron-left" style="font-size:36px; color: black"></i>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+          <i class="fa fa-chevron-right" style="font-size:36px; color: black"></i>
+          <span class="sr-only">Next</span>
+        </a>
+    </div>
+</div>
 
 GreekLink is a software project a few friends and I have been working on.  At my fraternity chapter, we traditionally spend a lot of time conducting rush voting.  It's a huge hassle, having to vote on every person that walks through the doors, with each of the four rounds of voting taking usually between 3 and 6 hours.  We used a web application designed by an alumni that wasn't particularly user-friendly, and was in need of some improved tools to increase productivity.
 
