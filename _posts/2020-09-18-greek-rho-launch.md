@@ -5,7 +5,7 @@ date:   2020-09-19 14:00:00 -0400
 categories: blog
 ---
 
-This project is on Github!  Click <a href="https://github.com/csyager/greeklink-core" target="_blank">here</a> to view!
+{% include icon-github.html %} This project is on Github!  Click <a href="https://github.com/csyager/greeklink-core" target="_blank">here</a> to view!
 
 <div style="float: left; margin-right: 20px; width: 25%; min-width: 250px">
 <figure class="figure">
