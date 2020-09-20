@@ -7,7 +7,7 @@ categories: blog
 
 {% include icon-github.html %} This project is on Github!  Click <a href="https://github.com/csyager/greeklink-core" target="_blank">here</a> to view!
 
-<div style="float: left; margin-right: 20px; width: 25%; min-width: 250px">
+<div style="float: left; margin-right: 20px; width: 25%; min-width: 275px">
 <figure class="figure">
 <a href="/assets/images/greekrho_launch/logo.png"><img src="/assets/images/greekrho_launch/logo.png" class="img-thumbnail figure-img img-fluid"></a>
 </figure>
